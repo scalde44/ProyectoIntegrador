@@ -63,6 +63,7 @@ public class ServletLogin extends HttpServlet {
      * @throws IOException if an I/O error occurs
      */
     @Override
+    //Metodo Post
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         processRequest(request, response);
